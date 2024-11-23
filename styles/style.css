@@ -1,9 +1,4 @@
 /* место для вашего кода */
-.adress {
-    margin: 0;
-    padding: 0;
-}
-
 a {
     text-underline-position: under;
 }
@@ -23,7 +18,7 @@ a {
     justify-self: center;
 }
 
-.header__logo-image{
+.header__logo-image {
     height: 100%;
 }
 
@@ -34,27 +29,27 @@ a {
     margin-left: 26px;
 }
 
-.header__links-list-item{
+.header__links-list-item {
     font-size: 18px;
     letter-spacing: 0.2px;
 }
 
-.header__menu-item-active .header__menu-link{
+.header__menu-item-active .header__menu-link {
     text-decoration: none;
 }
 
-.header__menu-item-active::marker{
+.header__menu-item-active::marker {
     content: none;
 }
 
-.adress {
+.address {
     width: 240px;
     word-wrap: break-word;
     line-height: 24.3px;
     font-size: 18px;
 }
 
-.header__address{
+.header__address {
     justify-self: right;
     margin-right: 25px;
 }
@@ -84,7 +79,7 @@ a {
     line-height: 115%;
 }
 
-.title-line-height{
+.title-line-height {
     padding-bottom: 15px;
 }
 
@@ -241,7 +236,7 @@ a {
     position: absolute;
     margin: auto;
     display: block;
-    top: 0; 
+    top: 0;
     left:0;
     right:0;
     bottom:0;
@@ -260,7 +255,7 @@ a {
     padding-top: 10px;
     display: flex;
     flex-direction: column;
-    gap: 24px;  
+    gap: 24px;
     grid-column: 2;
     grid-row: 2;
     font-size: 20px;
@@ -283,7 +278,7 @@ a {
     font-size: 18px;
 }
 
-.footer__menu-item-active .footer__menu-link{
+.footer__menu-item-active .footer__menu-link {
     text-decoration: none;
 }
 
@@ -302,7 +297,7 @@ a {
     width: 48px;
 }
 
-.footer__address{
+.footer__address {
     justify-self: left;
     margin-right: 25px;
 }
