@@ -45,6 +45,7 @@ a {
 .address {
     width: 240px;
     word-wrap: break-word;
+    font-style: normal;
     line-height: 24.3px;
     font-size: 18px;
 }
@@ -67,13 +68,17 @@ a {
     letter-spacing: 30px;
     position: relative;
     width: 100%;
-    padding: 165px 20px 130px 50px;
+    padding: 165px 50px 130px;
     color: #fff;
     font-size: 100px;
     text-transform: uppercase;
     font-weight: bold;
     z-index: 1;
     line-height: 115%;
+}
+
+.resseting-letter-spacing {
+    letter-spacing: 0;
 }
 
 .title-line-height {
@@ -132,6 +137,7 @@ a {
     margin-left: 79px;
     padding: 12px 32px;
     border-color: white;
+    border-style: solid;
     border-width: 1px;
 }
 
