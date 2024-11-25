@@ -67,10 +67,7 @@ a {
     letter-spacing: 30px;
     position: relative;
     width: 100%;
-    padding-top: 165px;
-    padding-left: 50px;
-    padding-right: 20px;
-    padding-bottom: 130px;
+    padding: 165px 20px 130px 50px;
     color: #fff;
     font-size: 100px;
     text-transform: uppercase;
@@ -88,7 +85,7 @@ a {
 }
 
 .text-center {
-    padding-left: 286px;
+    text-align: center;
 }
 
 .text-right {
@@ -130,6 +127,7 @@ a {
     background-color: transparent;
     color: white;
     font-size: 22px;
+    font-family: Raleway, sans-serif;
     text-transform: uppercase;
     margin-left: 79px;
     padding: 12px 32px;
